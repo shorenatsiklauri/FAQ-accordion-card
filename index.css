@@ -27,6 +27,10 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+.smallshedowsvg {
+  margin-left: 200px;
+}
 .boxforanimations {
   margin-bottom: 10px;
 }
@@ -47,7 +51,7 @@ svg {
   margin-bottom: 30px;
 }
 .textbox {
-  height: 60px;
+  height: 70px;
   width: 279px;
   left: 0px;
   border-radius: 0px;
@@ -59,6 +63,11 @@ svg {
   font-size: 13px;
   line-height: 16px;
   color: #4b4c5f;
+}
+.textbox svg {
+  margin: auto;
+  padding-left: 240px;
+  padding-top: -100px;
 }
 
 .showtext {
