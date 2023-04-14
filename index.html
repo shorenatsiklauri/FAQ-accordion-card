@@ -446,14 +446,19 @@
       </div>
       <div class="boxfortexts">
         <h1>FAQ</h1>
-        <div class="textbox" onclick="toggleText(event)">
+        <div class="textbox" onclick="toggleText(0)">
           How many team members can I invite?
 
           <div class="showtext">
             No more than 2GB. All files in your account must fit your allotted
             storage space.
           </div>
-          <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            class="animation-svg"
+            width="10"
+            height="7"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               d="M1 .799l4 4 4-4"
               stroke="#F47B56"
@@ -464,7 +469,7 @@
           </svg>
         </div>
 
-        <div class="textbox" onclick="toggleText(event)">
+        <div class="textbox" onclick="toggleText(1)">
           What is the maximum file upload size?
           <div class="showtext">
             No more than 2GB. All files in your account must fit your allotted
@@ -480,7 +485,8 @@
             />
           </svg>
         </div>
-        <div class="textbox" onclick="toggleText(event)">
+
+        <div class="textbox" onclick="toggleText(2)">
           How do I reset my password?
           <div class="showtext">
             No more than 2GB. All files in your account must fit your allotted
@@ -496,12 +502,8 @@
             />
           </svg>
         </div>
-        <div class="textbox" onclick="toggleText(event)">
+        <div class="textbox" onclick="toggleText(3)">
           Can I cancel my subscription?
-          <div class="showtext">
-            No more than 2GB. All files in your account must fit your allotted
-            storage space.
-          </div>
           <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M1 .799l4 4 4-4"
@@ -511,8 +513,12 @@
               fill-rule="evenodd"
             />
           </svg>
+          <div class="showtext">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </div>
         </div>
-        <div class="textbox" onclick="toggleText(event)">
+        <div class="textbox" onclick="toggleText(4)">
           Do you provide additional support?
           <div class="showtext">
             No more than 2GB. All files in your account must fit your allotted
