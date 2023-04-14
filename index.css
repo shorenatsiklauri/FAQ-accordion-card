@@ -102,9 +102,10 @@ svg {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     height: 509px;
     width: 920px;
-    margin: auto;
   }
 
   svg {
