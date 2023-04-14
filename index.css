@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
 }
 
 .smallshedowsvg {
@@ -103,7 +104,7 @@ svg {
     justify-content: center;
     height: 509px;
     width: 920px;
-    margin-left: 150px;
+    margin: auto;
   }
 
   svg {
